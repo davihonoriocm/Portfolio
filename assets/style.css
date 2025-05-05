@@ -254,10 +254,12 @@ footer p {
         width: 100%;
         height: 100%;
         display: flex;
+        flex-direction: column;
+        padding-top: 2vh;
     }
     
     main section .content {
-        width: 60%;
+        width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -288,12 +290,13 @@ footer p {
         align-items: center;
         gap: 2px;
         flex-wrap: nowrap;
+        justify-content: center;
     }
     
     main section .content ul .download a {
         border: solid 1px lightsteelblue;
         margin-right: 20px;
-        padding: 7px 5px;
+        padding: 7px 10px;
         border-radius: 10px;
         background-color: lightsteelblue;
         color: #799887;
@@ -335,16 +338,17 @@ footer p {
     }
     
     main section .photo {
-        width: 40%;
+        width: 100%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
     
     main section .photo div{
-        width: 80px;
-        height: 180px;
+        width: 160px;
+        height: 200px;
         border-radius: 50%;
         overflow: hidden;   
         transition: 5ms;
